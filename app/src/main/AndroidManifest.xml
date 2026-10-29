@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
-
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -12,16 +11,44 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PortalPet">
+
         <activity
             android:name=".ui.LoginActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".ui.TutorHomeActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".ui.ClinicaHomeActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".ui.CadastroPetActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".ui.AgendarConsultaActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".ui.ConsultasTutorActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".ui.SobreClinicaActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".ui.DetalheConsultaClinicaActivity"
+            android:exported="true" />
 
     </application>
 

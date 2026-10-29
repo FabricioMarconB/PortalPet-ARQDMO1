@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".ui.CadastroPetActivity">
+
+    <TextView
+        android:id="@+id/tvTituloCadastroPet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_cadastro_pet"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgPreviewPet"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:src="@drawable/ic_pet_cao"
+        android:contentDescription="@string/app_name"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/tvTituloCadastroPet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnIconeCao"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_icone_cao"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="6dp"
+        app:layout_constraintTop_toBottomOf="@id/imgPreviewPet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnIconeGato" />
+
+    <Button
+        android:id="@+id/btnIconeGato"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_icone_gato"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="6dp"
+        app:layout_constraintTop_toBottomOf="@id/imgPreviewPet"
+        app:layout_constraintStart_toEndOf="@id/btnIconeCao"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/edtNomePet"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_nome_pet"
+        android:inputType="textPersonName"
+        android:drawableStart="@android:drawable/ic_menu_edit"
+        android:drawablePadding="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/btnIconeCao"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/edtEspecieRaca"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_especie_raca"
+        android:inputType="text"
+        android:drawableStart="@android:drawable/ic_menu_info_details"
+        android:drawablePadding="8dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/edtNomePet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/edtIdadePet"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_idade_pet"
+        android:inputType="text"
+        android:drawableStart="@android:drawable/ic_menu_my_calendar"
+        android:drawablePadding="8dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/edtEspecieRaca"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnSalvarPet"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_salvar_pet"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/edtIdadePet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnVoltarCadastroPet"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_voltar"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/btnSalvarPet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
