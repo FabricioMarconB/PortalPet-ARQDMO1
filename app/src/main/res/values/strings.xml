@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">PortalPet</string>
+
+    <!-- login -->
+    <string name="titulo_login">PortalPet</string>
+    <string name="subtitulo_login">Gestão Veterinária e Bem-Estar Animal</string>
+    <string name="label_email">Email:</string>
+    <string name="hint_email">Digite o seu email</string>
+    <string name="label_senha">Senha:</string>
+    <string name="hint_senha">Digite a sua senha</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="btn_tema">Tema Claro/Escuro</string>
+    <string name="btn_idioma">Mudar Idioma (PT/EN)</string>
+    <string name="dica_acesso">Teste Tutor: tutor@portalpet.com | Clínica: clinica@portalpet.com (Senha: 123)</string>
+    <string name="erro_login_vazio">Preencha o email e a senha!</string>
+    <string name="erro_login_invalido">Credenciais inválidas!</string>
+
+    <!-- home tutor -->
+    <string name="titulo_tutor_home">Meus Animais</string>
+    <string name="subtitulo_tutor_home">Toque num animal para marcar consulta:</string>
+    <string name="btn_novo_pet">Registar Pet</string>
+    <string name="btn_minhas_consultas">Consultas</string>
+    <string name="btn_sobre_clinica">A Clínica</string>
+    <string name="btn_sair">Sair</string>
+
+    <!-- cadastrar animal -->
+    <string name="titulo_cadastro_pet">Novo Animal</string>
+    <string name="hint_nome_pet">Nome do animal (ex: Rex)</string>
+    <string name="hint_especie_raca">Espécie e Raça (ex: Cão - Poodle)</string>
+    <string name="hint_idade_pet">Idade (ex: 4 anos)</string>
+    <string name="btn_icone_cao">Ícone Cão</string>
+    <string name="btn_icone_gato">Ícone Gato</string>
+    <string name="btn_salvar_pet">Guardar Animal</string>
+    <string name="btn_voltar">Voltar</string>
+    <string name="msg_pet_salvo">Animal registado com sucesso!</string>
+    <string name="erro_campos_obrigatorios">Preencha todos os campos!</string>
+
+    <!-- agendar consulta -->
+    <string name="titulo_agendar_consulta">Marcar Consulta</string>
+    <string name="hint_data_hora">Data e Hora (AAAA-MM-DD HH:MM)</string>
+    <string name="hint_motivo">Motivo da consulta (ex: Vacinação)</string>
+    <string name="btn_confirmar_agendamento">Confirmar Marcação</string>
+    <string name="msg_consulta_agendada">Consulta marcada com sucesso!</string>
+
+    <!-- consultas -->
+    <string name="titulo_consultas_tutor">Minhas Consultas Agendadas</string>
+
+    <!-- sobre -->
+    <string name="titulo_sobre_clinica">Clínica PortalPet</string>
+    <string name="descricao_clinica">Atendimento veterinário humanizado, vacinação, exames e acompanhamento clínico em Araraquara - SP.</string>
+    <string name="telefone_clinica_exibicao">Telefone: (16) 3333-9999 (Toque para ligar)</string>
+    <string name="endereco_clinica_exibicao">Av. Bento de Abreu, Araraquara - SP</string>
+    <string name="email_clinica_exibicao">atendimento@portalpet.com.br</string>
+    <string name="btn_ligar_clinica">Ligar para a Clínica</string>
+    <string name="btn_email_clinica">Entrar em Contacto (Email)</string>
+    <string name="btn_como_chegar">Como Chegar (Google Maps)</string>
+
+    <!-- home -->
+    <string name="titulo_clinica_home">Fila de Atendimento (Clínica)</string>
+    <string name="subtitulo_clinica_home">Toque numa consulta para gerir o atendimento:</string>
+
+    <!-- detalhes -->
+    <string name="titulo_detalhe_consulta">Detalhes do Atendimento</string>
+    <string name="hint_observacoes_clinica">Observações clínicas / recomendações</string>
+    <string name="btn_status_confirmada">Marcar Confirmada</string>
+    <string name="btn_status_concluida">Marcar Concluída</string>
+    <string name="btn_salvar_atendimento">Guardar Alterações</string>
+    <string name="btn_ligar_tutor">Ligar ao Tutor</string>
+    <string name="btn_email_tutor">Enviar Email ao Tutor</string>
+    <string name="msg_atendimento_atualizado">Atendimento atualizado!</string>
+</resources>
